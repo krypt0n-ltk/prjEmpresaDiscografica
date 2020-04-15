@@ -36,6 +36,7 @@ namespace EmpresaDiscografica.datos
             catch(Exception e)
             {
                 Console.WriteLine("Ha ocurrido un error inesperado con la conexión a la base de datos. Por favor consulte con el administrador.");
+                Console.WriteLine(e.Message);
             }
                 return ds;
                         

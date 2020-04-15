@@ -48,4 +48,3 @@ C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\Ap
 C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.CopyComplete
 C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csprojAssemblyReference.cache
 C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.presentacion.formInicio.resources
-C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\FontAwesome.Sharp.dll
