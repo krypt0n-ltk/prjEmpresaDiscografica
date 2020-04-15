@@ -48,40 +48,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="datos\clsDatos.cs" />
-    <Compile Include="vista\formConsultaEnVivo.cs">
+    <Compile Include="presentacion\formConsultaEnVivo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\formConsultaEnVivo.Designer.cs">
+    <Compile Include="presentacion\formConsultaEnVivo.Designer.cs">
       <DependentUpon>formConsultaEnVivo.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\formGestionarEmpresa.cs">
+    <Compile Include="presentacion\formGestionarEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\formGestionarEmpresa.Designer.cs">
+    <Compile Include="presentacion\formGestionarEmpresa.Designer.cs">
       <DependentUpon>formGestionarEmpresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\formGestionarProductor.cs">
+    <Compile Include="presentacion\formGestionarProductor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\formGestionarProductor.Designer.cs">
+    <Compile Include="presentacion\formGestionarProductor.Designer.cs">
       <DependentUpon>formGestionarProductor.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\formGestionarPais.cs">
+    <Compile Include="presentacion\formGestionarPais.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\formGestionarPais.Designer.cs">
+    <Compile Include="presentacion\formGestionarPais.Designer.cs">
       <DependentUpon>formGestionarPais.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\formGestionTrabajo.cs">
+    <Compile Include="presentacion\formGestionTrabajo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\formGestionTrabajo.Designer.cs">
+    <Compile Include="presentacion\formGestionTrabajo.Designer.cs">
       <DependentUpon>formGestionTrabajo.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\formPrincipal.cs">
+    <Compile Include="presentacion\formPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\formPrincipal.Designer.cs">
+    <Compile Include="presentacion\formPrincipal.Designer.cs">
       <DependentUpon>formPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="logica\clsEmpresaDiscografica.cs" />
@@ -91,22 +91,22 @@
     <Compile Include="logica\clsValidar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="vista\formConsultaEnVivo.resx">
+    <EmbeddedResource Include="presentacion\formConsultaEnVivo.resx">
       <DependentUpon>formConsultaEnVivo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vista\formGestionarEmpresa.resx">
+    <EmbeddedResource Include="presentacion\formGestionarEmpresa.resx">
       <DependentUpon>formGestionarEmpresa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vista\formGestionarProductor.resx">
+    <EmbeddedResource Include="presentacion\formGestionarProductor.resx">
       <DependentUpon>formGestionarProductor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vista\formGestionarPais.resx">
+    <EmbeddedResource Include="presentacion\formGestionarPais.resx">
       <DependentUpon>formGestionarPais.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vista\formGestionTrabajo.resx">
+    <EmbeddedResource Include="presentacion\formGestionTrabajo.resx">
       <DependentUpon>formGestionTrabajo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vista\formPrincipal.resx">
+    <EmbeddedResource Include="presentacion\formPrincipal.resx">
       <DependentUpon>formPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

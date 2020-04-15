@@ -30,3 +30,19 @@ C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Ses
 C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.pdb
 C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csprojAssemblyReference.cache
 C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.CopyComplete
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.exe
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.pdb
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.exe.config
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.exe
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.pdb
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\Oracle.DataAccess.dll
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formConsultaEnVivo.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionarEmpresa.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionarProductor.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionarPais.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionTrabajo.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formPrincipal.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.Properties.Resources.resources
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.GenerateResource.cache
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.CoreCompileInputs.cache
+C:\Users\yefer\source\repos\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.CopyComplete
