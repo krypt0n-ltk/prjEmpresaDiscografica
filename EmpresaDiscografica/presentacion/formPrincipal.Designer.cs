@@ -42,7 +42,7 @@
             this.lbMensaje9.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.lbMensaje9.Font = new System.Drawing.Font("Stencil", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMensaje9.ForeColor = System.Drawing.Color.Black;
-            this.lbMensaje9.Location = new System.Drawing.Point(171, 45);
+            this.lbMensaje9.Location = new System.Drawing.Point(171, 35);
             this.lbMensaje9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbMensaje9.Name = "lbMensaje9";
             this.lbMensaje9.Size = new System.Drawing.Size(465, 46);
@@ -58,7 +58,7 @@
             this.btnEmpDiscografica.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpDiscografica.ForeColor = System.Drawing.Color.Black;
             this.btnEmpDiscografica.Location = new System.Drawing.Point(25, 167);
-            this.btnEmpDiscografica.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEmpDiscografica.Margin = new System.Windows.Forms.Padding(2);
             this.btnEmpDiscografica.Name = "btnEmpDiscografica";
             this.btnEmpDiscografica.Size = new System.Drawing.Size(170, 57);
             this.btnEmpDiscografica.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.btnProdMusical.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProdMusical.ForeColor = System.Drawing.Color.Black;
             this.btnProdMusical.Location = new System.Drawing.Point(227, 167);
-            this.btnProdMusical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProdMusical.Margin = new System.Windows.Forms.Padding(2);
             this.btnProdMusical.Name = "btnProdMusical";
             this.btnProdMusical.Size = new System.Drawing.Size(161, 57);
             this.btnProdMusical.TabIndex = 2;
@@ -88,7 +88,7 @@
             this.btnPais.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPais.ForeColor = System.Drawing.Color.Black;
             this.btnPais.Location = new System.Drawing.Point(419, 167);
-            this.btnPais.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPais.Margin = new System.Windows.Forms.Padding(2);
             this.btnPais.Name = "btnPais";
             this.btnPais.Size = new System.Drawing.Size(149, 57);
             this.btnPais.TabIndex = 3;
@@ -104,7 +104,7 @@
             this.btnTrabajo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrabajo.ForeColor = System.Drawing.Color.Black;
             this.btnTrabajo.Location = new System.Drawing.Point(594, 167);
-            this.btnTrabajo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTrabajo.Margin = new System.Windows.Forms.Padding(2);
             this.btnTrabajo.Name = "btnTrabajo";
             this.btnTrabajo.Size = new System.Drawing.Size(134, 57);
             this.btnTrabajo.TabIndex = 4;
@@ -119,7 +119,7 @@
             this.btnConsultaVivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultaVivo.ForeColor = System.Drawing.Color.Black;
             this.btnConsultaVivo.Location = new System.Drawing.Point(329, 267);
-            this.btnConsultaVivo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConsultaVivo.Margin = new System.Windows.Forms.Padding(2);
             this.btnConsultaVivo.Name = "btnConsultaVivo";
             this.btnConsultaVivo.Size = new System.Drawing.Size(152, 44);
             this.btnConsultaVivo.TabIndex = 5;
@@ -141,7 +141,7 @@
             this.Controls.Add(this.lbMensaje9);
             this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.ForeColor = System.Drawing.Color.Maroon;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formPrincipal";
             this.Text = "FormPrincipal";
             this.UseWaitCursor = true;
