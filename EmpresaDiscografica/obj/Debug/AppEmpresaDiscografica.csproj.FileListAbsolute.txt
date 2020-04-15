@@ -1,0 +1,32 @@
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.exe.config
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.exe
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.pdb
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csprojResolveAssemblyReference.cache
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.FormGestionarPais.resources
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.Properties.Resources.resources
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.GenerateResource.Cache
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.exe
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.pdb
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\Oracle.DataAccess.dll
+c:\users\yennyfer\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.FormPrincipal.resources
+C:\Users\YENNYFER\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.FormGestionarEmpresa.resources
+C:\Users\YENNYFER\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.FormGestionarProductor.resources
+C:\Users\YENNYFER\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionTrabajo.resources
+C:\Users\YENNYFER\documents\visual studio 2015\Projects\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formConsultaEnVivo.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.exe.config
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.exe
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\EmpresaDiscografica.pdb
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\bin\Debug\Oracle.DataAccess.dll
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formConsultaEnVivo.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionarEmpresa.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionarProductor.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionarPais.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formGestionTrabajo.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.formPrincipal.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.Properties.Resources.resources
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.GenerateResource.Cache
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.CoreCompileInputs.cache
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.exe
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\EmpresaDiscografica.pdb
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csprojAssemblyReference.cache
+C:\Users\yefer\OneDrive\Documentos\Asignaturas\4to Semestre\Bases de Datos I\Sesiones\Parte 3\Final_BDI_Yeferson_Benavides_Yennyfer_Aviles\EmpresaDiscografica\EmpresaDiscografica\obj\Debug\AppEmpresaDiscografica.csproj.CopyComplete
