@@ -66,7 +66,7 @@ namespace EmpresaDiscografica
             miDS = pa.consultarPaisPorCodigo(codPa);
             if (miDS.Tables[0].Rows.Count > 0)
             {
-                txtActuCodPais.Text = miDS.Tables[0].Rows[0]["paCodigo"].ToString();
+                txtActuCodPais.Text = miDS.Tables[0].Rows[0]["paCod"].ToString();
                 txtActuNomPais.Text = miDS.Tables[0].Rows[0]["paNombre"].ToString();
               
             }

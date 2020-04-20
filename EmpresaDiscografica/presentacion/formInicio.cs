@@ -18,72 +18,23 @@ namespace EmpresaDiscografica.presentacion
         public formInicio()
         {
             InitializeComponent();
-            inicializarDiseño();
         }
 
-        /// <summary>
-        /// Inicializa el diseño del form ocultando los submenus.
-        /// </summary>
-        public void inicializarDiseño()
-        {
-            pnlEmpSubmenu.Visible = false;
-            pnlProdSubmenu.Visible = false;
-            pnlPaisSubmenu.Visible = false;
-        }
 
-        /// <summary>
-        /// Oculta todos los submenus que se encuentren visibles.
-        /// </summary>
-        public void ocultarSubmenus()
-        {
-            if (pnlEmpSubmenu.Visible == true)
-            {
-                pnlEmpSubmenu.Visible = false;
-            }
-            if (pnlProdSubmenu.Visible == true)
-            {
-                pnlProdSubmenu.Visible = false;
-            }
-            if (pnlPaisSubmenu.Visible == true)
-            {
-                pnlPaisSubmenu.Visible = false;
-            }
-        }
-
-        /// <summary>
-        /// Activa o desactiva la visibilidad del panel "prmSubmenu" dependiendo del estado en que se encuentre. En el caso de que esté desactivada, se oculta cualquier otro submenú que se enncuentre visible.
-        /// </summary>
-        /// <param name="prmSubmenu"> Panel a ser ocultado o mostrado.</param>
-        public void mostrarSubmenu(Panel prmSubmenu)
-        {
-            if (prmSubmenu.Visible == false)
-            {
-                ocultarSubmenus();
-                prmSubmenu.Visible = true;
-            }
-            else
-            {
-                prmSubmenu.Visible = false;
-            }
-                
-        }
 
         #region eventos
         private void btnEmpDisc_Click(object sender, EventArgs e)
         {
-            //mostrarSubmenu(pnlEmpSubmenu);
             abrirFormulario(new formGestionarEmpresa());
         }
 
         private void btnProductor_Click(object sender, EventArgs e)
         {
-            //mostrarSubmenu(pnlProdSubmenu);
             abrirFormulario(new formGestionarProductor());
         }
 
         private void btnPais_Click(object sender, EventArgs e)
         {
-            //mostrarSubmenu(pnlPaisSubmenu);
             abrirFormulario(new formGestionarPais());
         }
 

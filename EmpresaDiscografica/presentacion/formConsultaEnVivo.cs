@@ -14,6 +14,7 @@ namespace EmpresaDiscografica
     public partial class formConsultaEnVivo : Form
     {
         clsTrabaja trabajo = new clsTrabaja();
+
         public formConsultaEnVivo()
         {
             InitializeComponent();

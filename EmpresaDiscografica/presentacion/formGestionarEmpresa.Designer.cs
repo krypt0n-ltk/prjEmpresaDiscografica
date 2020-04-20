@@ -84,9 +84,7 @@
             // 
             // pnlRegistroEmp
             // 
-            this.pnlRegistroEmp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlRegistroEmp.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlRegistroEmp.Controls.Add(this.btnLimpiarRe);
             this.pnlRegistroEmp.Controls.Add(this.txtRegCodPa);
             this.pnlRegistroEmp.Controls.Add(this.lbRegCodPa);
@@ -102,17 +100,17 @@
             this.pnlRegistroEmp.Controls.Add(this.lbNomEmpresa);
             this.pnlRegistroEmp.Controls.Add(this.lbCodigo);
             this.pnlRegistroEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlRegistroEmp.Location = new System.Drawing.Point(20, 15);
+            this.pnlRegistroEmp.Location = new System.Drawing.Point(69, 36);
             this.pnlRegistroEmp.Margin = new System.Windows.Forms.Padding(2);
             this.pnlRegistroEmp.Name = "pnlRegistroEmp";
-            this.pnlRegistroEmp.Size = new System.Drawing.Size(602, 461);
+            this.pnlRegistroEmp.Size = new System.Drawing.Size(485, 382);
             this.pnlRegistroEmp.TabIndex = 0;
             // 
             // btnLimpiarRe
             // 
-            this.btnLimpiarRe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLimpiarRe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLimpiarRe.BackColor = System.Drawing.Color.Khaki;
-            this.btnLimpiarRe.Location = new System.Drawing.Point(417, 285);
+            this.btnLimpiarRe.Location = new System.Drawing.Point(39, 332);
             this.btnLimpiarRe.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarRe.Name = "btnLimpiarRe";
             this.btnLimpiarRe.Size = new System.Drawing.Size(84, 31);
@@ -123,7 +121,7 @@
             // 
             // txtRegCodPa
             // 
-            this.txtRegCodPa.Location = new System.Drawing.Point(197, 96);
+            this.txtRegCodPa.Location = new System.Drawing.Point(197, 129);
             this.txtRegCodPa.Margin = new System.Windows.Forms.Padding(2);
             this.txtRegCodPa.Name = "txtRegCodPa";
             this.txtRegCodPa.Size = new System.Drawing.Size(194, 21);
@@ -134,7 +132,7 @@
             // 
             this.lbRegCodPa.AutoSize = true;
             this.lbRegCodPa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbRegCodPa.Location = new System.Drawing.Point(39, 98);
+            this.lbRegCodPa.Location = new System.Drawing.Point(39, 131);
             this.lbRegCodPa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbRegCodPa.Name = "lbRegCodPa";
             this.lbRegCodPa.Size = new System.Drawing.Size(88, 15);
@@ -146,7 +144,7 @@
             this.lbMensaje1.AutoSize = true;
             this.lbMensaje1.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.lbMensaje1.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMensaje1.Location = new System.Drawing.Point(14, 12);
+            this.lbMensaje1.Location = new System.Drawing.Point(35, 32);
             this.lbMensaje1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbMensaje1.Name = "lbMensaje1";
             this.lbMensaje1.Size = new System.Drawing.Size(225, 19);
@@ -158,7 +156,7 @@
             this.btnGuardarEmp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGuardarEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnGuardarEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarEmp.Location = new System.Drawing.Point(207, 285);
+            this.btnGuardarEmp.Location = new System.Drawing.Point(340, 332);
             this.btnGuardarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarEmp.Name = "btnGuardarEmp";
             this.btnGuardarEmp.Size = new System.Drawing.Size(111, 31);
@@ -171,7 +169,7 @@
             // 
             this.rbCasaMatriz.AutoSize = true;
             this.rbCasaMatriz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbCasaMatriz.Location = new System.Drawing.Point(313, 243);
+            this.rbCasaMatriz.Location = new System.Drawing.Point(313, 276);
             this.rbCasaMatriz.Margin = new System.Windows.Forms.Padding(2);
             this.rbCasaMatriz.Name = "rbCasaMatriz";
             this.rbCasaMatriz.Size = new System.Drawing.Size(101, 19);
@@ -184,7 +182,7 @@
             this.rbSubsidiaria.AutoSize = true;
             this.rbSubsidiaria.Checked = true;
             this.rbSubsidiaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbSubsidiaria.Location = new System.Drawing.Point(209, 243);
+            this.rbSubsidiaria.Location = new System.Drawing.Point(209, 276);
             this.rbSubsidiaria.Margin = new System.Windows.Forms.Padding(2);
             this.rbSubsidiaria.Name = "rbSubsidiaria";
             this.rbSubsidiaria.Size = new System.Drawing.Size(98, 19);
@@ -197,7 +195,7 @@
             // 
             this.dtpAnioFund.CustomFormat = "";
             this.dtpAnioFund.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpAnioFund.Location = new System.Drawing.Point(197, 193);
+            this.dtpAnioFund.Location = new System.Drawing.Point(197, 226);
             this.dtpAnioFund.Margin = new System.Windows.Forms.Padding(2);
             this.dtpAnioFund.Name = "dtpAnioFund";
             this.dtpAnioFund.Size = new System.Drawing.Size(194, 21);
@@ -205,7 +203,7 @@
             // 
             // txtNombreEmp
             // 
-            this.txtNombreEmp.Location = new System.Drawing.Point(197, 142);
+            this.txtNombreEmp.Location = new System.Drawing.Point(197, 175);
             this.txtNombreEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreEmp.Name = "txtNombreEmp";
             this.txtNombreEmp.Size = new System.Drawing.Size(194, 21);
@@ -213,7 +211,7 @@
             // 
             // txtCodigoEmp
             // 
-            this.txtCodigoEmp.Location = new System.Drawing.Point(197, 50);
+            this.txtCodigoEmp.Location = new System.Drawing.Point(197, 83);
             this.txtCodigoEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodigoEmp.Name = "txtCodigoEmp";
             this.txtCodigoEmp.Size = new System.Drawing.Size(194, 21);
@@ -224,7 +222,7 @@
             // 
             this.lbTipo.AutoSize = true;
             this.lbTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTipo.Location = new System.Drawing.Point(51, 243);
+            this.lbTipo.Location = new System.Drawing.Point(39, 278);
             this.lbTipo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbTipo.Name = "lbTipo";
             this.lbTipo.Size = new System.Drawing.Size(39, 15);
@@ -235,7 +233,7 @@
             // 
             this.lbAnioFundacion.AutoSize = true;
             this.lbAnioFundacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAnioFundacion.Location = new System.Drawing.Point(39, 193);
+            this.lbAnioFundacion.Location = new System.Drawing.Point(39, 226);
             this.lbAnioFundacion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbAnioFundacion.Name = "lbAnioFundacion";
             this.lbAnioFundacion.Size = new System.Drawing.Size(106, 15);
@@ -246,7 +244,7 @@
             // 
             this.lbNomEmpresa.AutoSize = true;
             this.lbNomEmpresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNomEmpresa.Location = new System.Drawing.Point(39, 144);
+            this.lbNomEmpresa.Location = new System.Drawing.Point(39, 177);
             this.lbNomEmpresa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbNomEmpresa.Name = "lbNomEmpresa";
             this.lbNomEmpresa.Size = new System.Drawing.Size(123, 15);
@@ -257,7 +255,7 @@
             // 
             this.lbCodigo.AutoSize = true;
             this.lbCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCodigo.Location = new System.Drawing.Point(36, 55);
+            this.lbCodigo.Location = new System.Drawing.Point(36, 88);
             this.lbCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbCodigo.Name = "lbCodigo";
             this.lbCodigo.Size = new System.Drawing.Size(56, 15);
@@ -306,6 +304,7 @@
             // 
             // pnlActualizarEmp
             // 
+            this.pnlActualizarEmp.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlActualizarEmp.Controls.Add(this.btnLimpiarAct);
             this.pnlActualizarEmp.Controls.Add(this.txtActuCodPa);
             this.pnlActualizarEmp.Controls.Add(this.lbActuCodPa);
@@ -323,17 +322,18 @@
             this.pnlActualizarEmp.Controls.Add(this.lbActuNombreEmp);
             this.pnlActualizarEmp.Controls.Add(this.lbActuCodigoEmp);
             this.pnlActualizarEmp.Controls.Add(this.lbCodigoBuscar);
-            this.pnlActualizarEmp.Location = new System.Drawing.Point(13, 13);
+            this.pnlActualizarEmp.Location = new System.Drawing.Point(70, 35);
             this.pnlActualizarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.pnlActualizarEmp.Name = "pnlActualizarEmp";
-            this.pnlActualizarEmp.Size = new System.Drawing.Size(612, 459);
+            this.pnlActualizarEmp.Size = new System.Drawing.Size(494, 403);
             this.pnlActualizarEmp.TabIndex = 2;
             // 
             // btnLimpiarAct
             // 
+            this.btnLimpiarAct.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLimpiarAct.BackColor = System.Drawing.Color.Khaki;
             this.btnLimpiarAct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiarAct.Location = new System.Drawing.Point(329, 302);
+            this.btnLimpiarAct.Location = new System.Drawing.Point(50, 330);
             this.btnLimpiarAct.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarAct.Name = "btnLimpiarAct";
             this.btnLimpiarAct.Size = new System.Drawing.Size(93, 31);
@@ -344,7 +344,7 @@
             // 
             // txtActuCodPa
             // 
-            this.txtActuCodPa.Location = new System.Drawing.Point(181, 125);
+            this.txtActuCodPa.Location = new System.Drawing.Point(214, 160);
             this.txtActuCodPa.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuCodPa.Name = "txtActuCodPa";
             this.txtActuCodPa.Size = new System.Drawing.Size(97, 20);
@@ -355,7 +355,7 @@
             // 
             this.lbActuCodPa.AutoSize = true;
             this.lbActuCodPa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbActuCodPa.Location = new System.Drawing.Point(25, 128);
+            this.lbActuCodPa.Location = new System.Drawing.Point(47, 161);
             this.lbActuCodPa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbActuCodPa.Name = "lbActuCodPa";
             this.lbActuCodPa.Size = new System.Drawing.Size(88, 15);
@@ -364,7 +364,7 @@
             // 
             // txtActuAnioEmp
             // 
-            this.txtActuAnioEmp.Location = new System.Drawing.Point(181, 202);
+            this.txtActuAnioEmp.Location = new System.Drawing.Point(214, 237);
             this.txtActuAnioEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuAnioEmp.Name = "txtActuAnioEmp";
             this.txtActuAnioEmp.Size = new System.Drawing.Size(97, 20);
@@ -375,7 +375,7 @@
             this.lbMensaje2.AutoSize = true;
             this.lbMensaje2.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.lbMensaje2.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMensaje2.Location = new System.Drawing.Point(13, 7);
+            this.lbMensaje2.Location = new System.Drawing.Point(46, 36);
             this.lbMensaje2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbMensaje2.Name = "lbMensaje2";
             this.lbMensaje2.Size = new System.Drawing.Size(277, 19);
@@ -384,9 +384,10 @@
             // 
             // btnActualizar
             // 
+            this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(118, 298);
+            this.btnActualizar.Location = new System.Drawing.Point(344, 326);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(122, 35);
@@ -399,7 +400,7 @@
             // 
             this.rbActuCasa.AutoSize = true;
             this.rbActuCasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbActuCasa.Location = new System.Drawing.Point(208, 239);
+            this.rbActuCasa.Location = new System.Drawing.Point(241, 274);
             this.rbActuCasa.Margin = new System.Windows.Forms.Padding(2);
             this.rbActuCasa.Name = "rbActuCasa";
             this.rbActuCasa.Size = new System.Drawing.Size(101, 19);
@@ -412,7 +413,7 @@
             this.rbActuSubsi.AutoSize = true;
             this.rbActuSubsi.Checked = true;
             this.rbActuSubsi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbActuSubsi.Location = new System.Drawing.Point(85, 239);
+            this.rbActuSubsi.Location = new System.Drawing.Point(118, 274);
             this.rbActuSubsi.Margin = new System.Windows.Forms.Padding(2);
             this.rbActuSubsi.Name = "rbActuSubsi";
             this.rbActuSubsi.Size = new System.Drawing.Size(98, 19);
@@ -423,7 +424,7 @@
             // 
             // txtActuNomEmp
             // 
-            this.txtActuNomEmp.Location = new System.Drawing.Point(181, 159);
+            this.txtActuNomEmp.Location = new System.Drawing.Point(214, 194);
             this.txtActuNomEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuNomEmp.Name = "txtActuNomEmp";
             this.txtActuNomEmp.Size = new System.Drawing.Size(97, 20);
@@ -431,7 +432,7 @@
             // 
             // txtActuCodigoEmp
             // 
-            this.txtActuCodigoEmp.Location = new System.Drawing.Point(181, 90);
+            this.txtActuCodigoEmp.Location = new System.Drawing.Point(214, 125);
             this.txtActuCodigoEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuCodigoEmp.Name = "txtActuCodigoEmp";
             this.txtActuCodigoEmp.Size = new System.Drawing.Size(97, 20);
@@ -442,7 +443,7 @@
             // 
             this.lbActuTipoEmp.AutoSize = true;
             this.lbActuTipoEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbActuTipoEmp.Location = new System.Drawing.Point(22, 241);
+            this.lbActuTipoEmp.Location = new System.Drawing.Point(47, 276);
             this.lbActuTipoEmp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbActuTipoEmp.Name = "lbActuTipoEmp";
             this.lbActuTipoEmp.Size = new System.Drawing.Size(39, 15);
@@ -453,7 +454,7 @@
             // 
             this.lbActuAnioFuEmp.AutoSize = true;
             this.lbActuAnioFuEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbActuAnioFuEmp.Location = new System.Drawing.Point(22, 202);
+            this.lbActuAnioFuEmp.Location = new System.Drawing.Point(47, 237);
             this.lbActuAnioFuEmp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbActuAnioFuEmp.Name = "lbActuAnioFuEmp";
             this.lbActuAnioFuEmp.Size = new System.Drawing.Size(106, 15);
@@ -462,7 +463,7 @@
             // 
             // txtBuscarCodigo
             // 
-            this.txtBuscarCodigo.Location = new System.Drawing.Point(181, 59);
+            this.txtBuscarCodigo.Location = new System.Drawing.Point(214, 94);
             this.txtBuscarCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.txtBuscarCodigo.Name = "txtBuscarCodigo";
             this.txtBuscarCodigo.Size = new System.Drawing.Size(97, 20);
@@ -471,12 +472,13 @@
             // 
             // btnBuscarCodigo
             // 
+            this.btnBuscarCodigo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBuscarCodigo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnBuscarCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarCodigo.Location = new System.Drawing.Point(298, 53);
+            this.btnBuscarCodigo.Location = new System.Drawing.Point(343, 85);
             this.btnBuscarCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarCodigo.Name = "btnBuscarCodigo";
-            this.btnBuscarCodigo.Size = new System.Drawing.Size(123, 27);
+            this.btnBuscarCodigo.Size = new System.Drawing.Size(123, 32);
             this.btnBuscarCodigo.TabIndex = 3;
             this.btnBuscarCodigo.Text = "Buscar";
             this.btnBuscarCodigo.UseVisualStyleBackColor = false;
@@ -486,7 +488,7 @@
             // 
             this.lbActuNombreEmp.AutoSize = true;
             this.lbActuNombreEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbActuNombreEmp.Location = new System.Drawing.Point(22, 162);
+            this.lbActuNombreEmp.Location = new System.Drawing.Point(47, 195);
             this.lbActuNombreEmp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbActuNombreEmp.Name = "lbActuNombreEmp";
             this.lbActuNombreEmp.Size = new System.Drawing.Size(123, 15);
@@ -497,7 +499,7 @@
             // 
             this.lbActuCodigoEmp.AutoSize = true;
             this.lbActuCodigoEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbActuCodigoEmp.Location = new System.Drawing.Point(22, 90);
+            this.lbActuCodigoEmp.Location = new System.Drawing.Point(47, 125);
             this.lbActuCodigoEmp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbActuCodigoEmp.Name = "lbActuCodigoEmp";
             this.lbActuCodigoEmp.Size = new System.Drawing.Size(56, 15);
@@ -508,7 +510,7 @@
             // 
             this.lbCodigoBuscar.AutoSize = true;
             this.lbCodigoBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCodigoBuscar.Location = new System.Drawing.Point(19, 59);
+            this.lbCodigoBuscar.Location = new System.Drawing.Point(47, 94);
             this.lbCodigoBuscar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbCodigoBuscar.Name = "lbCodigoBuscar";
             this.lbCodigoBuscar.Size = new System.Drawing.Size(155, 15);
@@ -541,7 +543,7 @@
             this.pnlEliminarEmp.Location = new System.Drawing.Point(21, 16);
             this.pnlEliminarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.pnlEliminarEmp.Name = "pnlEliminarEmp";
-            this.pnlEliminarEmp.Size = new System.Drawing.Size(615, 352);
+            this.pnlEliminarEmp.Size = new System.Drawing.Size(615, 401);
             this.pnlEliminarEmp.TabIndex = 2;
             // 
             // lbMensaje3
@@ -558,9 +560,11 @@
             // 
             // btnEliminarEmp
             // 
-            this.btnEliminarEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnEliminarEmp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEliminarEmp.BackColor = System.Drawing.Color.Red;
             this.btnEliminarEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarEmp.Location = new System.Drawing.Point(317, 240);
+            this.btnEliminarEmp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnEliminarEmp.Location = new System.Drawing.Point(29, 359);
             this.btnEliminarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminarEmp.Name = "btnEliminarEmp";
             this.btnEliminarEmp.Size = new System.Drawing.Size(111, 31);
@@ -571,7 +575,8 @@
             // 
             // txtCodEmpEliminar
             // 
-            this.txtCodEmpEliminar.Location = new System.Drawing.Point(200, 248);
+            this.txtCodEmpEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtCodEmpEliminar.Location = new System.Drawing.Point(204, 319);
             this.txtCodEmpEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodEmpEliminar.Name = "txtCodEmpEliminar";
             this.txtCodEmpEliminar.Size = new System.Drawing.Size(115, 20);
@@ -580,10 +585,11 @@
             // 
             // lbCodEmpEliminar
             // 
+            this.lbCodEmpEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lbCodEmpEliminar.AutoSize = true;
             this.lbCodEmpEliminar.BackColor = System.Drawing.Color.Khaki;
             this.lbCodEmpEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCodEmpEliminar.Location = new System.Drawing.Point(41, 248);
+            this.lbCodEmpEliminar.Location = new System.Drawing.Point(29, 320);
             this.lbCodEmpEliminar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbCodEmpEliminar.Name = "lbCodEmpEliminar";
             this.lbCodEmpEliminar.Size = new System.Drawing.Size(161, 15);
@@ -592,20 +598,22 @@
             // 
             // dgvDatosEmpresas
             // 
-            this.dgvDatosEmpresas.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgvDatosEmpresas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvDatosEmpresas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatosEmpresas.Location = new System.Drawing.Point(44, 95);
+            this.dgvDatosEmpresas.Location = new System.Drawing.Point(29, 109);
             this.dgvDatosEmpresas.Margin = new System.Windows.Forms.Padding(2);
             this.dgvDatosEmpresas.Name = "dgvDatosEmpresas";
             this.dgvDatosEmpresas.RowTemplate.Height = 28;
-            this.dgvDatosEmpresas.Size = new System.Drawing.Size(535, 127);
+            this.dgvDatosEmpresas.Size = new System.Drawing.Size(483, 176);
             this.dgvDatosEmpresas.TabIndex = 1;
             // 
             // btnConsultarEmp
             // 
             this.btnConsultarEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnConsultarEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarEmp.Location = new System.Drawing.Point(233, 39);
+            this.btnConsultarEmp.Location = new System.Drawing.Point(29, 50);
             this.btnConsultarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.btnConsultarEmp.Name = "btnConsultarEmp";
             this.btnConsultarEmp.Size = new System.Drawing.Size(178, 41);

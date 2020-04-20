@@ -61,7 +61,7 @@ namespace EmpresaDiscografica
             miDS = productor.consultarProdPorTarjeta(tarjetaProd);
             if (miDS.Tables[0].Rows.Count > 0)
             {
-                txtActuTarjeta.Text = miDS.Tables[0].Rows[0]["prodNumTarjetaProf"].ToString();
+                txtActuTarjeta.Text = miDS.Tables[0].Rows[0]["prodTjtaProf"].ToString();
                 txtActuNombreProd.Text = miDS.Tables[0].Rows[0]["prodNombre"].ToString();
                 txtActuApellido.Text = miDS.Tables[0].Rows[0]["prodApellido"].ToString();
 

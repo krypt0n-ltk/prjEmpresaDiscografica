@@ -149,5 +149,6 @@ namespace EmpresaDiscografica
         {
             validacion.limpiar(pnlRegistroTra);
         }
+
     }
 }

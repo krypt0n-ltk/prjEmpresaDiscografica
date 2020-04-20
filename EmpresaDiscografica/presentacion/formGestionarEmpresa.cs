@@ -47,9 +47,9 @@ namespace EmpresaDiscografica
                 empNombre = txtNombreEmp.Text;
                 empAnioFund = dtpAnioFund.Value.Year;
                 if (rbSubsidiaria.Checked == true)
-                    empTipo = "Subsidiaria";
+                    empTipo = "subsidiaria";
                 else
-                    empTipo = "Casa Matriz";
+                    empTipo = "casa matriz";
                  resultado = emp.insertarEmpresa(empCodigo, paCodigo, empNombre, empAnioFund, empTipo);
                 if (resultado == 1)
                     MessageBox.Show("Empresa Registrada", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -73,13 +73,13 @@ namespace EmpresaDiscografica
             miDS = emp.consultarEmpresaPorCodigo(cod);
             if (miDS.Tables[0].Rows.Count > 0)
             {
-                txtActuCodigoEmp.Text = miDS.Tables[0].Rows[0]["empCodigo"].ToString();
-                txtActuCodPa.Text = miDS.Tables[0].Rows[0]["paCodigo"].ToString();
+                txtActuCodigoEmp.Text = miDS.Tables[0].Rows[0]["empCod"].ToString();
+                txtActuCodPa.Text = miDS.Tables[0].Rows[0]["paCod"].ToString();
                 txtActuNomEmp.Text = miDS.Tables[0].Rows[0]["empNombre"].ToString();
 
                 txtActuAnioEmp.Text = miDS.Tables[0].Rows[0]["empAnioFund"].ToString();
 
-                if (miDS.Tables[0].Rows[0]["empTipo"].ToString() == "Subsidiaria")
+                if (miDS.Tables[0].Rows[0]["empTipo"].ToString() == "subsidiaria")
                 {
                     rbActuSubsi.Checked = true;
                     rbActuCasa.Checked = false;
@@ -120,9 +120,9 @@ namespace EmpresaDiscografica
             empAnioFund = int.Parse(txtActuAnioEmp.Text);
 
             if (rbActuSubsi.Checked == true)
-                empTipo = "Subsidiaria";
+                empTipo = "subsidiaria";
             else
-                empTipo = "Casa Matriz";
+                empTipo = "casa matriz";
 
             dsCodEmp = emp.consultarEmpresaPorCodigo(empCodigo);
             dsCodPa = emp.consultaPais(paCodigo);
@@ -131,7 +131,7 @@ namespace EmpresaDiscografica
             {
                 if (dsCodEmp.Tables[0].Rows.Count > 0)
                 {
-                    if ((dsCodEmp.Tables[0].Rows[0]["empCodigo"].ToString()) == (txtBuscarCodigo.Text))
+                    if ((dsCodEmp.Tables[0].Rows[0]["empCod"].ToString()) == (txtBuscarCodigo.Text))
                     {
                         if (dsCodPa.Tables[0].Rows.Count > 0)
                         {
