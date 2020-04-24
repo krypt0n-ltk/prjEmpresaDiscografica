@@ -88,11 +88,11 @@
             // 
             this.btnLimpiarReg.BackColor = System.Drawing.Color.Khaki;
             this.btnLimpiarReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiarReg.Location = new System.Drawing.Point(327, 320);
+            this.btnLimpiarReg.Location = new System.Drawing.Point(42, 320);
             this.btnLimpiarReg.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarReg.Name = "btnLimpiarReg";
             this.btnLimpiarReg.Size = new System.Drawing.Size(97, 32);
-            this.btnLimpiarReg.TabIndex = 13;
+            this.btnLimpiarReg.TabIndex = 11;
             this.btnLimpiarReg.Text = "Limpiar";
             this.btnLimpiarReg.UseVisualStyleBackColor = false;
             this.btnLimpiarReg.Click += new System.EventHandler(this.btnLimpiarReg_Click);
@@ -115,7 +115,7 @@
             this.rbNo.Margin = new System.Windows.Forms.Padding(2);
             this.rbNo.Name = "rbNo";
             this.rbNo.Size = new System.Drawing.Size(39, 17);
-            this.rbNo.TabIndex = 11;
+            this.rbNo.TabIndex = 9;
             this.rbNo.Text = "No";
             this.rbNo.UseVisualStyleBackColor = true;
             this.rbNo.CheckedChanged += new System.EventHandler(this.rbNo_CheckedChanged);
@@ -128,7 +128,7 @@
             this.rbSi.Margin = new System.Windows.Forms.Padding(2);
             this.rbSi.Name = "rbSi";
             this.rbSi.Size = new System.Drawing.Size(34, 17);
-            this.rbSi.TabIndex = 10;
+            this.rbSi.TabIndex = 8;
             this.rbSi.TabStop = true;
             this.rbSi.Text = "Si";
             this.rbSi.UseVisualStyleBackColor = true;
@@ -138,11 +138,11 @@
             // 
             this.btnGuardarTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnGuardarTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarTra.Location = new System.Drawing.Point(171, 320);
+            this.btnGuardarTra.Location = new System.Drawing.Point(268, 320);
             this.btnGuardarTra.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarTra.Name = "btnGuardarTra";
             this.btnGuardarTra.Size = new System.Drawing.Size(101, 32);
-            this.btnGuardarTra.TabIndex = 9;
+            this.btnGuardarTra.TabIndex = 12;
             this.btnGuardarTra.Text = "Guardar";
             this.btnGuardarTra.UseVisualStyleBackColor = false;
             this.btnGuardarTra.Click += new System.EventHandler(this.btnGuardarTra_Click);
@@ -155,7 +155,7 @@
             this.dtpFechaFin.Margin = new System.Windows.Forms.Padding(2);
             this.dtpFechaFin.Name = "dtpFechaFin";
             this.dtpFechaFin.Size = new System.Drawing.Size(128, 20);
-            this.dtpFechaFin.TabIndex = 8;
+            this.dtpFechaFin.TabIndex = 10;
             // 
             // dtpFechaInicio
             // 
@@ -326,7 +326,7 @@
             this.dtpFechCon2.Margin = new System.Windows.Forms.Padding(2);
             this.dtpFechCon2.Name = "dtpFechCon2";
             this.dtpFechCon2.Size = new System.Drawing.Size(135, 20);
-            this.dtpFechCon2.TabIndex = 4;
+            this.dtpFechCon2.TabIndex = 3;
             // 
             // btnConsulta2
             // 
@@ -337,7 +337,7 @@
             this.btnConsulta2.Margin = new System.Windows.Forms.Padding(2);
             this.btnConsulta2.Name = "btnConsulta2";
             this.btnConsulta2.Size = new System.Drawing.Size(116, 49);
-            this.btnConsulta2.TabIndex = 3;
+            this.btnConsulta2.TabIndex = 2;
             this.btnConsulta2.Text = "Consulta 2";
             this.btnConsulta2.UseVisualStyleBackColor = false;
             this.btnConsulta2.Click += new System.EventHandler(this.btnConsulta2_Click);
@@ -363,7 +363,7 @@
             this.btnConsulta1.Margin = new System.Windows.Forms.Padding(2);
             this.btnConsulta1.Name = "btnConsulta1";
             this.btnConsulta1.Size = new System.Drawing.Size(116, 49);
-            this.btnConsulta1.TabIndex = 0;
+            this.btnConsulta1.TabIndex = 1;
             this.btnConsulta1.Text = "Consulta 1";
             this.btnConsulta1.UseVisualStyleBackColor = false;
             this.btnConsulta1.Click += new System.EventHandler(this.btnConsulta1_Click);

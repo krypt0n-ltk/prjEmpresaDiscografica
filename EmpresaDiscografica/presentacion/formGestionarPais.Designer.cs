@@ -130,7 +130,7 @@
             this.btnGuardarPais.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarPais.Name = "btnGuardarPais";
             this.btnGuardarPais.Size = new System.Drawing.Size(83, 25);
-            this.btnGuardarPais.TabIndex = 3;
+            this.btnGuardarPais.TabIndex = 7;
             this.btnGuardarPais.Text = "Guardar";
             this.btnGuardarPais.UseVisualStyleBackColor = false;
             this.btnGuardarPais.Click += new System.EventHandler(this.btnGuardarPais_Click);
@@ -242,7 +242,7 @@
             this.btnLimpiarAct.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarAct.Name = "btnLimpiarAct";
             this.btnLimpiarAct.Size = new System.Drawing.Size(97, 31);
-            this.btnLimpiarAct.TabIndex = 9;
+            this.btnLimpiarAct.TabIndex = 10;
             this.btnLimpiarAct.Text = "Limpiar";
             this.btnLimpiarAct.UseVisualStyleBackColor = false;
             this.btnLimpiarAct.Click += new System.EventHandler(this.btnLimpiarAct_Click);
@@ -256,7 +256,7 @@
             this.btnActualizarPais.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizarPais.Name = "btnActualizarPais";
             this.btnActualizarPais.Size = new System.Drawing.Size(119, 31);
-            this.btnActualizarPais.TabIndex = 8;
+            this.btnActualizarPais.TabIndex = 11;
             this.btnActualizarPais.Text = "Actualizar";
             this.btnActualizarPais.UseVisualStyleBackColor = false;
             this.btnActualizarPais.Click += new System.EventHandler(this.btnActualizarPais_Click);
@@ -290,7 +290,7 @@
             this.txtActuNomPais.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuNomPais.Name = "txtActuNomPais";
             this.txtActuNomPais.Size = new System.Drawing.Size(92, 20);
-            this.txtActuNomPais.TabIndex = 5;
+            this.txtActuNomPais.TabIndex = 9;
             // 
             // txtActuCodPais
             // 
@@ -298,7 +298,7 @@
             this.txtActuCodPais.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuCodPais.Name = "txtActuCodPais";
             this.txtActuCodPais.Size = new System.Drawing.Size(92, 20);
-            this.txtActuCodPais.TabIndex = 4;
+            this.txtActuCodPais.TabIndex = 8;
             this.txtActuCodPais.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodPaisEliminar_KeyPress);
             // 
             // lbActuCodPais

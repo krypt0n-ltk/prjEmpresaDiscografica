@@ -28,22 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formInicio));
             this.pnlMenuLateral = new System.Windows.Forms.Panel();
             this.btnConsulta = new System.Windows.Forms.Button();
+            this.pnlLogo = new System.Windows.Forms.Panel();
+            this.pnlContenedorForms = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnTrabajo = new System.Windows.Forms.Button();
             this.btnPais = new System.Windows.Forms.Button();
             this.btnProductor = new System.Windows.Forms.Button();
             this.btnEmpDisc = new System.Windows.Forms.Button();
-            this.pnlLogo = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pnlContenedorForms = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlMenuLateral.SuspendLayout();
             this.pnlLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnlContenedorForms.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMenuLateral
@@ -79,82 +78,6 @@
             this.btnConsulta.UseVisualStyleBackColor = true;
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
-            // btnTrabajo
-            // 
-            this.btnTrabajo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTrabajo.FlatAppearance.BorderSize = 0;
-            this.btnTrabajo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTrabajo.Image = ((System.Drawing.Image)(resources.GetObject("btnTrabajo.Image")));
-            this.btnTrabajo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTrabajo.Location = new System.Drawing.Point(0, 235);
-            this.btnTrabajo.Name = "btnTrabajo";
-            this.btnTrabajo.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnTrabajo.Size = new System.Drawing.Size(250, 45);
-            this.btnTrabajo.TabIndex = 7;
-            this.btnTrabajo.Text = "  Relación de Trabajo";
-            this.btnTrabajo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTrabajo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTrabajo.UseVisualStyleBackColor = true;
-            this.btnTrabajo.Click += new System.EventHandler(this.btnTrabajo_Click);
-            // 
-            // btnPais
-            // 
-            this.btnPais.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPais.FlatAppearance.BorderSize = 0;
-            this.btnPais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPais.Image = ((System.Drawing.Image)(resources.GetObject("btnPais.Image")));
-            this.btnPais.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPais.Location = new System.Drawing.Point(0, 190);
-            this.btnPais.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPais.Name = "btnPais";
-            this.btnPais.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnPais.Size = new System.Drawing.Size(250, 45);
-            this.btnPais.TabIndex = 5;
-            this.btnPais.Text = "  País";
-            this.btnPais.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPais.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPais.UseVisualStyleBackColor = true;
-            this.btnPais.Click += new System.EventHandler(this.btnPais_Click);
-            // 
-            // btnProductor
-            // 
-            this.btnProductor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProductor.FlatAppearance.BorderSize = 0;
-            this.btnProductor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductor.Image = ((System.Drawing.Image)(resources.GetObject("btnProductor.Image")));
-            this.btnProductor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductor.Location = new System.Drawing.Point(0, 145);
-            this.btnProductor.Margin = new System.Windows.Forms.Padding(4);
-            this.btnProductor.Name = "btnProductor";
-            this.btnProductor.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnProductor.Size = new System.Drawing.Size(250, 45);
-            this.btnProductor.TabIndex = 3;
-            this.btnProductor.Text = "  Productor Musical";
-            this.btnProductor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnProductor.UseVisualStyleBackColor = true;
-            this.btnProductor.Click += new System.EventHandler(this.btnProductor_Click);
-            // 
-            // btnEmpDisc
-            // 
-            this.btnEmpDisc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEmpDisc.FlatAppearance.BorderSize = 0;
-            this.btnEmpDisc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmpDisc.ForeColor = System.Drawing.Color.LightGray;
-            this.btnEmpDisc.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpDisc.Image")));
-            this.btnEmpDisc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpDisc.Location = new System.Drawing.Point(0, 100);
-            this.btnEmpDisc.Margin = new System.Windows.Forms.Padding(4);
-            this.btnEmpDisc.Name = "btnEmpDisc";
-            this.btnEmpDisc.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnEmpDisc.Size = new System.Drawing.Size(250, 45);
-            this.btnEmpDisc.TabIndex = 1;
-            this.btnEmpDisc.Text = "  Empresa Discográfica";
-            this.btnEmpDisc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpDisc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEmpDisc.UseVisualStyleBackColor = true;
-            this.btnEmpDisc.Click += new System.EventHandler(this.btnEmpDisc_Click);
-            // 
             // pnlLogo
             // 
             this.pnlLogo.Controls.Add(this.pictureBox2);
@@ -164,17 +87,6 @@
             this.pnlLogo.Name = "pnlLogo";
             this.pnlLogo.Size = new System.Drawing.Size(250, 100);
             this.pnlLogo.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = global::EmpresaDiscografica.Properties.Resources.logoSinMsj;
-            this.pictureBox2.Location = new System.Drawing.Point(60, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(125, 70);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // pnlContenedorForms
             // 
@@ -199,6 +111,93 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btnTrabajo
+            // 
+            this.btnTrabajo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTrabajo.FlatAppearance.BorderSize = 0;
+            this.btnTrabajo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTrabajo.Image = global::EmpresaDiscografica.Properties.Resources.handshake;
+            this.btnTrabajo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTrabajo.Location = new System.Drawing.Point(0, 235);
+            this.btnTrabajo.Name = "btnTrabajo";
+            this.btnTrabajo.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnTrabajo.Size = new System.Drawing.Size(250, 45);
+            this.btnTrabajo.TabIndex = 7;
+            this.btnTrabajo.Text = "  Relación de Trabajo";
+            this.btnTrabajo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTrabajo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTrabajo.UseVisualStyleBackColor = true;
+            this.btnTrabajo.Click += new System.EventHandler(this.btnTrabajo_Click);
+            // 
+            // btnPais
+            // 
+            this.btnPais.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPais.FlatAppearance.BorderSize = 0;
+            this.btnPais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPais.Image = global::EmpresaDiscografica.Properties.Resources.enterprise;
+            this.btnPais.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPais.Location = new System.Drawing.Point(0, 190);
+            this.btnPais.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPais.Name = "btnPais";
+            this.btnPais.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPais.Size = new System.Drawing.Size(250, 45);
+            this.btnPais.TabIndex = 5;
+            this.btnPais.Text = "  País";
+            this.btnPais.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPais.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPais.UseVisualStyleBackColor = true;
+            this.btnPais.Click += new System.EventHandler(this.btnPais_Click);
+            // 
+            // btnProductor
+            // 
+            this.btnProductor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductor.FlatAppearance.BorderSize = 0;
+            this.btnProductor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductor.Image = global::EmpresaDiscografica.Properties.Resources.employee;
+            this.btnProductor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductor.Location = new System.Drawing.Point(0, 145);
+            this.btnProductor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProductor.Name = "btnProductor";
+            this.btnProductor.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnProductor.Size = new System.Drawing.Size(250, 45);
+            this.btnProductor.TabIndex = 3;
+            this.btnProductor.Text = "  Productor Musical";
+            this.btnProductor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnProductor.UseVisualStyleBackColor = true;
+            this.btnProductor.Click += new System.EventHandler(this.btnProductor_Click);
+            // 
+            // btnEmpDisc
+            // 
+            this.btnEmpDisc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEmpDisc.FlatAppearance.BorderSize = 0;
+            this.btnEmpDisc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpDisc.ForeColor = System.Drawing.Color.LightGray;
+            this.btnEmpDisc.Image = global::EmpresaDiscografica.Properties.Resources.compact_disc;
+            this.btnEmpDisc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpDisc.Location = new System.Drawing.Point(0, 100);
+            this.btnEmpDisc.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEmpDisc.Name = "btnEmpDisc";
+            this.btnEmpDisc.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnEmpDisc.Size = new System.Drawing.Size(250, 45);
+            this.btnEmpDisc.TabIndex = 1;
+            this.btnEmpDisc.Text = "  Empresa Discográfica";
+            this.btnEmpDisc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpDisc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEmpDisc.UseVisualStyleBackColor = true;
+            this.btnEmpDisc.Click += new System.EventHandler(this.btnEmpDisc_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = global::EmpresaDiscografica.Properties.Resources.logoSinMsj;
+            this.pictureBox2.Location = new System.Drawing.Point(60, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(125, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // formInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -214,10 +213,10 @@
             this.Text = "formInicio";
             this.pnlMenuLateral.ResumeLayout(false);
             this.pnlLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlContenedorForms.ResumeLayout(false);
             this.pnlContenedorForms.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

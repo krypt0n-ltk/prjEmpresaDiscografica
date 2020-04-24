@@ -115,7 +115,7 @@
             this.txtTarjetaEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.txtTarjetaEliminar.Name = "txtTarjetaEliminar";
             this.txtTarjetaEliminar.Size = new System.Drawing.Size(121, 20);
-            this.txtTarjetaEliminar.TabIndex = 11;
+            this.txtTarjetaEliminar.TabIndex = 2;
             // 
             // btnEliminarProd
             // 
@@ -127,7 +127,7 @@
             this.btnEliminarProd.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminarProd.Name = "btnEliminarProd";
             this.btnEliminarProd.Size = new System.Drawing.Size(97, 34);
-            this.btnEliminarProd.TabIndex = 10;
+            this.btnEliminarProd.TabIndex = 3;
             this.btnEliminarProd.Text = "Eliminar";
             this.btnEliminarProd.UseVisualStyleBackColor = false;
             this.btnEliminarProd.Click += new System.EventHandler(this.btnEliminarProd_Click);
@@ -178,7 +178,7 @@
             this.btnconsultarProd.Margin = new System.Windows.Forms.Padding(2);
             this.btnconsultarProd.Name = "btnconsultarProd";
             this.btnconsultarProd.Size = new System.Drawing.Size(208, 35);
-            this.btnconsultarProd.TabIndex = 6;
+            this.btnconsultarProd.TabIndex = 1;
             this.btnconsultarProd.Text = "Consultar Productores";
             this.btnconsultarProd.UseVisualStyleBackColor = false;
             this.btnconsultarProd.Click += new System.EventHandler(this.btnconsultarProd_Click);
@@ -229,7 +229,7 @@
             this.btnLimpiarAct.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarAct.Name = "btnLimpiarAct";
             this.btnLimpiarAct.Size = new System.Drawing.Size(103, 31);
-            this.btnLimpiarAct.TabIndex = 35;
+            this.btnLimpiarAct.TabIndex = 8;
             this.btnLimpiarAct.Text = "Limpiar";
             this.btnLimpiarAct.UseVisualStyleBackColor = false;
             this.btnLimpiarAct.Click += new System.EventHandler(this.btnLimpiarAct_Click);
@@ -243,7 +243,7 @@
             this.btnBuscarProd.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarProd.Name = "btnBuscarProd";
             this.btnBuscarProd.Size = new System.Drawing.Size(90, 29);
-            this.btnBuscarProd.TabIndex = 34;
+            this.btnBuscarProd.TabIndex = 2;
             this.btnBuscarProd.Text = "Buscar";
             this.btnBuscarProd.UseVisualStyleBackColor = false;
             this.btnBuscarProd.Click += new System.EventHandler(this.btnBuscarProd_Click);
@@ -254,7 +254,7 @@
             this.txtTarjetaBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.txtTarjetaBuscar.Name = "txtTarjetaBuscar";
             this.txtTarjetaBuscar.Size = new System.Drawing.Size(93, 20);
-            this.txtTarjetaBuscar.TabIndex = 33;
+            this.txtTarjetaBuscar.TabIndex = 1;
             this.txtTarjetaBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTarjetaBuscar_KeyPress);
             // 
             // btnActualizarProd
@@ -266,7 +266,7 @@
             this.btnActualizarProd.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizarProd.Name = "btnActualizarProd";
             this.btnActualizarProd.Size = new System.Drawing.Size(90, 31);
-            this.btnActualizarProd.TabIndex = 32;
+            this.btnActualizarProd.TabIndex = 9;
             this.btnActualizarProd.Text = "Actualizar";
             this.btnActualizarProd.UseVisualStyleBackColor = false;
             this.btnActualizarProd.Click += new System.EventHandler(this.btnActualizarProd_Click);
@@ -274,6 +274,7 @@
             // cbxActuGenero
             // 
             this.cbxActuGenero.FormattingEnabled = true;
+            this.cbxActuGenero.ItemHeight = 13;
             this.cbxActuGenero.Items.AddRange(new object[] {
             "F",
             "M"});
@@ -281,21 +282,22 @@
             this.cbxActuGenero.Margin = new System.Windows.Forms.Padding(2);
             this.cbxActuGenero.Name = "cbxActuGenero";
             this.cbxActuGenero.Size = new System.Drawing.Size(95, 21);
-            this.cbxActuGenero.TabIndex = 31;
+            this.cbxActuGenero.TabIndex = 7;
             // 
             // cbxActuAnioExp
             // 
             this.cbxActuAnioExp.FormattingEnabled = true;
+            this.cbxActuAnioExp.ItemHeight = 13;
             this.cbxActuAnioExp.Items.AddRange(new object[] {
-            "Menor de 5 años.",
-            "Entre 5 y 10 años.",
-            "De 11 a 20 años.",
-            "Mas de 20 años."});
+            "menos de 5 años",
+            "entre 5 y 10 años",
+            "entre y 11 a 20 años",
+            "más de 20 años"});
             this.cbxActuAnioExp.Location = new System.Drawing.Point(266, 212);
             this.cbxActuAnioExp.Margin = new System.Windows.Forms.Padding(2);
             this.cbxActuAnioExp.Name = "cbxActuAnioExp";
             this.cbxActuAnioExp.Size = new System.Drawing.Size(93, 21);
-            this.cbxActuAnioExp.TabIndex = 30;
+            this.cbxActuAnioExp.TabIndex = 6;
             // 
             // txtActuApellido
             // 
@@ -303,7 +305,7 @@
             this.txtActuApellido.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuApellido.Name = "txtActuApellido";
             this.txtActuApellido.Size = new System.Drawing.Size(93, 20);
-            this.txtActuApellido.TabIndex = 29;
+            this.txtActuApellido.TabIndex = 5;
             // 
             // txtActuNombreProd
             // 
@@ -311,7 +313,7 @@
             this.txtActuNombreProd.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuNombreProd.Name = "txtActuNombreProd";
             this.txtActuNombreProd.Size = new System.Drawing.Size(93, 20);
-            this.txtActuNombreProd.TabIndex = 28;
+            this.txtActuNombreProd.TabIndex = 4;
             // 
             // txtActuTarjeta
             // 
@@ -319,7 +321,7 @@
             this.txtActuTarjeta.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuTarjeta.Name = "txtActuTarjeta";
             this.txtActuTarjeta.Size = new System.Drawing.Size(93, 20);
-            this.txtActuTarjeta.TabIndex = 27;
+            this.txtActuTarjeta.TabIndex = 3;
             this.txtActuTarjeta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtActuTarjeta_KeyPress);
             // 
             // lbActuGenero
@@ -327,7 +329,7 @@
             this.lbActuGenero.AutoSize = true;
             this.lbActuGenero.BackColor = System.Drawing.Color.White;
             this.lbActuGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbActuGenero.Location = new System.Drawing.Point(29, 246);
+            this.lbActuGenero.Location = new System.Drawing.Point(26, 246);
             this.lbActuGenero.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbActuGenero.Name = "lbActuGenero";
             this.lbActuGenero.Size = new System.Drawing.Size(58, 15);
@@ -387,7 +389,7 @@
             this.lbTarjetaBuscar.AutoSize = true;
             this.lbTarjetaBuscar.BackColor = System.Drawing.Color.White;
             this.lbTarjetaBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTarjetaBuscar.Location = new System.Drawing.Point(29, 69);
+            this.lbTarjetaBuscar.Location = new System.Drawing.Point(26, 69);
             this.lbTarjetaBuscar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbTarjetaBuscar.Name = "lbTarjetaBuscar";
             this.lbTarjetaBuscar.Size = new System.Drawing.Size(240, 15);
@@ -449,7 +451,7 @@
             this.btnLimpiarRe.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarRe.Name = "btnLimpiarRe";
             this.btnLimpiarRe.Size = new System.Drawing.Size(71, 25);
-            this.btnLimpiarRe.TabIndex = 2;
+            this.btnLimpiarRe.TabIndex = 11;
             this.btnLimpiarRe.Text = "Limpiar";
             this.btnLimpiarRe.UseVisualStyleBackColor = false;
             this.btnLimpiarRe.Click += new System.EventHandler(this.btnLimpiarRe_Click);
@@ -463,7 +465,7 @@
             this.btnGuardarProd.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarProd.Name = "btnGuardarProd";
             this.btnGuardarProd.Size = new System.Drawing.Size(82, 25);
-            this.btnGuardarProd.TabIndex = 11;
+            this.btnGuardarProd.TabIndex = 12;
             this.btnGuardarProd.Text = "Guardar";
             this.btnGuardarProd.UseVisualStyleBackColor = false;
             this.btnGuardarProd.Click += new System.EventHandler(this.btnGuardarProd_Click);

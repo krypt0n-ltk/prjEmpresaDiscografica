@@ -162,12 +162,19 @@ namespace EmpresaDiscografica
             }
             else
             {
-                resultado = emp.actualizarEmpresa(empCodigo, paCodigo, empNombre, empAnioFund, empTipo, empCodigoViejo);
+                if (dsCodPa.Tables[0].Rows.Count > 0)
+                {
+                    resultado = emp.actualizarEmpresa(empCodigo, paCodigo, empNombre, empAnioFund, empTipo, empCodigoViejo);
 
-                if (resultado == 1)
-                    MessageBox.Show("Empresa Actualizada.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (resultado == 1)
+                        MessageBox.Show("Empresa Actualizada.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    else
+                        MessageBox.Show("Empresa No Actualizada", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 else
-                    MessageBox.Show("Empresa No Actualizada", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Empresa No actualizada porque el codigo del Pais  no existe", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                
 
             }
 

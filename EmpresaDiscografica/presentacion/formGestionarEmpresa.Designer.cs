@@ -114,7 +114,7 @@
             this.btnLimpiarRe.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarRe.Name = "btnLimpiarRe";
             this.btnLimpiarRe.Size = new System.Drawing.Size(84, 31);
-            this.btnLimpiarRe.TabIndex = 13;
+            this.btnLimpiarRe.TabIndex = 7;
             this.btnLimpiarRe.Text = "Limpiar";
             this.btnLimpiarRe.UseVisualStyleBackColor = false;
             this.btnLimpiarRe.Click += new System.EventHandler(this.btnLimpiarRe_Click);
@@ -125,7 +125,7 @@
             this.txtRegCodPa.Margin = new System.Windows.Forms.Padding(2);
             this.txtRegCodPa.Name = "txtRegCodPa";
             this.txtRegCodPa.Size = new System.Drawing.Size(194, 21);
-            this.txtRegCodPa.TabIndex = 12;
+            this.txtRegCodPa.TabIndex = 2;
             this.txtRegCodPa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRegCodPa_KeyPress);
             // 
             // lbRegCodPa
@@ -160,7 +160,7 @@
             this.btnGuardarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarEmp.Name = "btnGuardarEmp";
             this.btnGuardarEmp.Size = new System.Drawing.Size(111, 31);
-            this.btnGuardarEmp.TabIndex = 9;
+            this.btnGuardarEmp.TabIndex = 8;
             this.btnGuardarEmp.Text = "Guardar";
             this.btnGuardarEmp.UseVisualStyleBackColor = false;
             this.btnGuardarEmp.Click += new System.EventHandler(this.btnGuardarEmp_Click);
@@ -173,7 +173,7 @@
             this.rbCasaMatriz.Margin = new System.Windows.Forms.Padding(2);
             this.rbCasaMatriz.Name = "rbCasaMatriz";
             this.rbCasaMatriz.Size = new System.Drawing.Size(101, 19);
-            this.rbCasaMatriz.TabIndex = 8;
+            this.rbCasaMatriz.TabIndex = 6;
             this.rbCasaMatriz.Text = "Casa Matriz";
             this.rbCasaMatriz.UseVisualStyleBackColor = true;
             // 
@@ -186,7 +186,7 @@
             this.rbSubsidiaria.Margin = new System.Windows.Forms.Padding(2);
             this.rbSubsidiaria.Name = "rbSubsidiaria";
             this.rbSubsidiaria.Size = new System.Drawing.Size(98, 19);
-            this.rbSubsidiaria.TabIndex = 7;
+            this.rbSubsidiaria.TabIndex = 5;
             this.rbSubsidiaria.TabStop = true;
             this.rbSubsidiaria.Text = "Subsidiaria";
             this.rbSubsidiaria.UseVisualStyleBackColor = true;
@@ -199,7 +199,7 @@
             this.dtpAnioFund.Margin = new System.Windows.Forms.Padding(2);
             this.dtpAnioFund.Name = "dtpAnioFund";
             this.dtpAnioFund.Size = new System.Drawing.Size(194, 21);
-            this.dtpAnioFund.TabIndex = 6;
+            this.dtpAnioFund.TabIndex = 4;
             // 
             // txtNombreEmp
             // 
@@ -207,7 +207,7 @@
             this.txtNombreEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreEmp.Name = "txtNombreEmp";
             this.txtNombreEmp.Size = new System.Drawing.Size(194, 21);
-            this.txtNombreEmp.TabIndex = 5;
+            this.txtNombreEmp.TabIndex = 3;
             // 
             // txtCodigoEmp
             // 
@@ -215,7 +215,7 @@
             this.txtCodigoEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodigoEmp.Name = "txtCodigoEmp";
             this.txtCodigoEmp.Size = new System.Drawing.Size(194, 21);
-            this.txtCodigoEmp.TabIndex = 4;
+            this.txtCodigoEmp.TabIndex = 1;
             this.txtCodigoEmp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigoEmp_KeyPress);
             // 
             // lbTipo
@@ -337,7 +337,7 @@
             this.btnLimpiarAct.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarAct.Name = "btnLimpiarAct";
             this.btnLimpiarAct.Size = new System.Drawing.Size(93, 31);
-            this.btnLimpiarAct.TabIndex = 17;
+            this.btnLimpiarAct.TabIndex = 9;
             this.btnLimpiarAct.Text = "Limpiar";
             this.btnLimpiarAct.UseVisualStyleBackColor = false;
             this.btnLimpiarAct.Click += new System.EventHandler(this.btnLimpiarAct_Click);
@@ -348,7 +348,7 @@
             this.txtActuCodPa.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuCodPa.Name = "txtActuCodPa";
             this.txtActuCodPa.Size = new System.Drawing.Size(97, 20);
-            this.txtActuCodPa.TabIndex = 16;
+            this.txtActuCodPa.TabIndex = 4;
             this.txtActuCodPa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtActuCodPa_KeyPress);
             // 
             // lbActuCodPa
@@ -368,7 +368,7 @@
             this.txtActuAnioEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuAnioEmp.Name = "txtActuAnioEmp";
             this.txtActuAnioEmp.Size = new System.Drawing.Size(97, 20);
-            this.txtActuAnioEmp.TabIndex = 14;
+            this.txtActuAnioEmp.TabIndex = 6;
             // 
             // lbMensaje2
             // 
@@ -391,7 +391,7 @@
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(122, 35);
-            this.btnActualizar.TabIndex = 12;
+            this.btnActualizar.TabIndex = 10;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
@@ -404,7 +404,7 @@
             this.rbActuCasa.Margin = new System.Windows.Forms.Padding(2);
             this.rbActuCasa.Name = "rbActuCasa";
             this.rbActuCasa.Size = new System.Drawing.Size(101, 19);
-            this.rbActuCasa.TabIndex = 11;
+            this.rbActuCasa.TabIndex = 8;
             this.rbActuCasa.Text = "Casa Matriz";
             this.rbActuCasa.UseVisualStyleBackColor = true;
             // 
@@ -417,7 +417,7 @@
             this.rbActuSubsi.Margin = new System.Windows.Forms.Padding(2);
             this.rbActuSubsi.Name = "rbActuSubsi";
             this.rbActuSubsi.Size = new System.Drawing.Size(98, 19);
-            this.rbActuSubsi.TabIndex = 10;
+            this.rbActuSubsi.TabIndex = 7;
             this.rbActuSubsi.TabStop = true;
             this.rbActuSubsi.Text = "Subsidiaria";
             this.rbActuSubsi.UseVisualStyleBackColor = true;
@@ -428,7 +428,7 @@
             this.txtActuNomEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuNomEmp.Name = "txtActuNomEmp";
             this.txtActuNomEmp.Size = new System.Drawing.Size(97, 20);
-            this.txtActuNomEmp.TabIndex = 8;
+            this.txtActuNomEmp.TabIndex = 5;
             // 
             // txtActuCodigoEmp
             // 
@@ -436,7 +436,7 @@
             this.txtActuCodigoEmp.Margin = new System.Windows.Forms.Padding(2);
             this.txtActuCodigoEmp.Name = "txtActuCodigoEmp";
             this.txtActuCodigoEmp.Size = new System.Drawing.Size(97, 20);
-            this.txtActuCodigoEmp.TabIndex = 7;
+            this.txtActuCodigoEmp.TabIndex = 3;
             this.txtActuCodigoEmp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtActuCodigoEmp_KeyPress);
             // 
             // lbActuTipoEmp
@@ -467,7 +467,7 @@
             this.txtBuscarCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.txtBuscarCodigo.Name = "txtBuscarCodigo";
             this.txtBuscarCodigo.Size = new System.Drawing.Size(97, 20);
-            this.txtBuscarCodigo.TabIndex = 4;
+            this.txtBuscarCodigo.TabIndex = 1;
             this.txtBuscarCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscarCodigo_KeyPress);
             // 
             // btnBuscarCodigo
@@ -479,7 +479,7 @@
             this.btnBuscarCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarCodigo.Name = "btnBuscarCodigo";
             this.btnBuscarCodigo.Size = new System.Drawing.Size(123, 32);
-            this.btnBuscarCodigo.TabIndex = 3;
+            this.btnBuscarCodigo.TabIndex = 2;
             this.btnBuscarCodigo.Text = "Buscar";
             this.btnBuscarCodigo.UseVisualStyleBackColor = false;
             this.btnBuscarCodigo.Click += new System.EventHandler(this.btnBuscarCodigo_Click);
@@ -568,7 +568,7 @@
             this.btnEliminarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminarEmp.Name = "btnEliminarEmp";
             this.btnEliminarEmp.Size = new System.Drawing.Size(111, 31);
-            this.btnEliminarEmp.TabIndex = 4;
+            this.btnEliminarEmp.TabIndex = 3;
             this.btnEliminarEmp.Text = "Eliminar";
             this.btnEliminarEmp.UseVisualStyleBackColor = false;
             this.btnEliminarEmp.Click += new System.EventHandler(this.btnEliminarEmp_Click);
@@ -580,7 +580,7 @@
             this.txtCodEmpEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodEmpEliminar.Name = "txtCodEmpEliminar";
             this.txtCodEmpEliminar.Size = new System.Drawing.Size(115, 20);
-            this.txtCodEmpEliminar.TabIndex = 3;
+            this.txtCodEmpEliminar.TabIndex = 2;
             this.txtCodEmpEliminar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodEmpEliminar_KeyPress);
             // 
             // lbCodEmpEliminar
@@ -617,7 +617,7 @@
             this.btnConsultarEmp.Margin = new System.Windows.Forms.Padding(2);
             this.btnConsultarEmp.Name = "btnConsultarEmp";
             this.btnConsultarEmp.Size = new System.Drawing.Size(178, 41);
-            this.btnConsultarEmp.TabIndex = 0;
+            this.btnConsultarEmp.TabIndex = 1;
             this.btnConsultarEmp.Text = "Consultar Empresas";
             this.btnConsultarEmp.UseVisualStyleBackColor = false;
             this.btnConsultarEmp.Click += new System.EventHandler(this.btnConsultarEmp_Click);

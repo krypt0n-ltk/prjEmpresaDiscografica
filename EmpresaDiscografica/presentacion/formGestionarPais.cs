@@ -177,7 +177,7 @@ namespace EmpresaDiscografica
                 }
                 else
                 {
-                    MessageBox.Show("Pais No Eliminado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("El pais no encontrado. Por favor verifique los datos ingresados.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             
